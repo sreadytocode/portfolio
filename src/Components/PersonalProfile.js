@@ -6,6 +6,7 @@ const Paragraph = styled.p`
     font-size: 1.35em;
     animation: pulse;
     animation-duration: 2s;
+    color: darkblue;
 `
 
 const PersonalProfile = () => {

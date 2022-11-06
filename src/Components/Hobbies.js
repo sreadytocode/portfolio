@@ -5,6 +5,7 @@ import styled from "styled-components";
 const Container = styled.div`
     animation: pulse;
     animation-duration: 2s;
+    color: darkblue;
 `
 
 const Hobbies = () => {

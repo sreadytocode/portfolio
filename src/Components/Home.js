@@ -9,6 +9,7 @@ const Paragraph = styled.p`
     animation: pulse;
     animation-duration: 2s;
     margin-right: auto;
+    color: darkblue;
 `
 
 const Home = () => {
