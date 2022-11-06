@@ -1,10 +1,15 @@
 import React from "react";
+import styled from "styled-components";
+
+const ImageContainer = styled.div `
+    float: left;
+`
 
 const Image = () => {
     return ( 
-        <>
-        <img src={process.env.PUBLIC_URL + '/portfolio-pic.jpg'} alt="profile" width="200"/>
-        </>
+        <ImageContainer>
+        <img src={process.env.PUBLIC_URL + '/portfolio-pic.jpg'} alt="profile" width="300"/>
+        </ImageContainer>
      );
 }
  

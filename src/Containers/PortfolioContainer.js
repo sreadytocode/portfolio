@@ -17,6 +17,7 @@ const PortfolioContainer = () => {
         <>
             <Router>
                     <Header text="Sara's Portfolio Website"/>
+                    <Image/>
                     <NavBar/>
                     
                 <Routes>
