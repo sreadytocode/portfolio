@@ -1,15 +1,23 @@
 import React from "react";
 import Header from "./Header";
+import styled from "styled-components";
 
+const Paragraph = styled.p`
+    font-size: 1.35em;
+    animation: headShake;
+    animation-duration: 2s;
+`
 
 const PersonalProfile = () => {
     return ( 
-        <div>
+        <Paragraph>
             <Header text="Personal Profile"/>
-            
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti laudantium suscipit debitis deserunt. Magni officiis repellat maiores, vel ullam perferendis, animi rerum minus consequuntur quasi possimus, nihil numquam? Error, quisquam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, minima? Nostrum quam est animi quaerat rerum, vero quasi fuga, veritatis, iste consectetur et ipsa laborum aperiam facilis ab ducimus obcaecati!</p>
-        </div>
+            <p>Detailed orientated CodeClan student with a background in healthcare.</p>
+            <p>Bringing forth a motivated attitude and a variety of powerful skills.</p> 
+            <p>Such as the ability to multitask, excellent communication and team working skills.</p>
+            <p>Adept at making critical decisions, managing high workloads and always very eager in learning new things.</p>
+            <p>Over 5 years of extensive experience working in the NHS has led me to develop these transferrable skills. </p>
+        </Paragraph>
      );
 }
  

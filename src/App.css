@@ -14,13 +14,12 @@
 }
 
 .main-container {
-  background-image: url('../public/cream1.jpeg');
+  background-image: url('../public/possibly.webp');
   background-size: cover;
-  color: brown;
   font-weight: bold;
   display: block;
   align-content: center;
-  font-family: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif";
+  font-family: "Arial";
 };
 
 .App-header {

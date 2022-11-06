@@ -6,9 +6,9 @@ const ButtonContainer = styled.button `
     padding: 1em;
     margin: .5em;
     &:hover {
-    background: gold;
+    background: turquoise;
     }
-    background-color: brown;
+    background-color: lightblue;
     border-radius: 5px;   
     font-weight: bold;
     font-family: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif";

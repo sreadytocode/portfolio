@@ -3,14 +3,18 @@ import Header from "./Header";
 import styled from "styled-components";
 
 const Paragraph = styled.p`
-    font-size: 1.8em;
+    font-size: 1.65em;
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: bounce;
+    animation-duration: 2s; 
 `
 
 const Home = () => {
     return ( 
         <Paragraph>
             <Header text="Hi, I am Sara Qureshi"/>
-            <hr />
+            <p>I am a CodeClan Student</p>
             <p>Welcome to my portfolio!</p>
             <p>Please click on the other buttons above to read more.</p>
             <p>Thank you!</p>

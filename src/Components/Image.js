@@ -3,12 +3,16 @@ import styled from "styled-components";
 
 const ImageContainer = styled.div `
     float: left;
+    border-radius: 50%;
+`
+const Img = styled.img`
+    border-radius: 50%;
 `
 
 const Image = () => {
     return ( 
         <ImageContainer>
-        <img src={process.env.PUBLIC_URL + '/portfolio-pic.jpg'} alt="profile" width="300"/>
+        <Img src={process.env.PUBLIC_URL + '/portfolio-pic.jpg'} alt="profile" width="300"/>
         </ImageContainer>
      );
 }
