@@ -10,6 +10,7 @@ import Hobbies from '../Components/Hobbies.js';
 import ErrorPage from '../Components/ErrorPage.js';
 import Education from '../Components/Education.js';
 import NavBar from '../Components/NavBar.js';
+import Image from '../Components/Image.js';
 
 const PortfolioContainer = () => {
     return ( 
@@ -17,6 +18,7 @@ const PortfolioContainer = () => {
             <Router>
                     <Header text="Sara's Portfolio Website"/>
                     <NavBar/>
+                    
                 <Routes>
                     <Route exact path="/" element={<Home/>}/> 
                     <Route path="/personalprofile" element={<PersonalProfile/>}/>
