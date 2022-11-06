@@ -6,8 +6,9 @@ const Paragraph = styled.p`
     font-size: 1.65em;
     display: inline-block;
     margin: 0 0.5rem;
-    animation: bounce;
-    animation-duration: 2s; 
+    animation: pulse;
+    animation-duration: 2s;
+    margin-right: auto;
 `
 
 const Home = () => {

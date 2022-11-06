@@ -3,7 +3,7 @@ import Header from "./Header";
 import styled from "styled-components";
 
 const Container = styled.div`
-    animation: fadeInTopLeft;
+    animation: pulse;
     animation-duration: 2s;
 `
 

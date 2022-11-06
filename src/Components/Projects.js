@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const Container = styled.div`
     animation: pulse;
-    animation-duration: 3s;
+    animation-duration: 2s;
 `
 
 const Projects = () => {

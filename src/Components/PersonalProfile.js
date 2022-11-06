@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const Paragraph = styled.p`
     font-size: 1.35em;
-    animation: headShake;
+    animation: pulse;
     animation-duration: 2s;
 `
 

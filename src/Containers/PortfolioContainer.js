@@ -11,15 +11,18 @@ import ErrorPage from '../Components/ErrorPage.js';
 import Education from '../Components/Education.js';
 import NavBar from '../Components/NavBar.js';
 import Image from '../Components/Image.js';
+import Heading from '../Components/Heading.js';
+
 
 const PortfolioContainer = () => {
     return ( 
         <>
             <Router>
-                    <Header text="Sara's Portfolio"/>
+                    <Heading text="Sara's Portfolio"/>
                     <Image/>
                     <NavBar/>
-                    
+                    <br />
+                    <br />
                 <Routes>
                     <Route exact path="/" element={<Home/>}/> 
                     <Route path="/personalprofile" element={<PersonalProfile/>}/>
@@ -31,7 +34,7 @@ const PortfolioContainer = () => {
                     <Route path="*" element={<ErrorPage/>}/>
                 </Routes>
             </Router>
-             </>
+        </>
      );
 }
  
