@@ -10,6 +10,7 @@ const Paragraph = styled.p`
     animation-duration: 2s;
     margin-right: auto;
     color: darkblue;
+    font-size: 1em;
 `
 
 const Home = () => {

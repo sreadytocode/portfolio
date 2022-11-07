@@ -6,6 +6,7 @@ const Container = styled.div`
     animation: pulse;
     animation-duration: 2s;
     color: darkblue;
+    font-size: 1em;
 `
 
 const CareerHistory = () => {

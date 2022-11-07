@@ -12,6 +12,7 @@ const Title = styled.h1`
     background-image: url(${Background});
     background-size: cover;
     color: darkblue;
+    filter: contrast(1.1);
     `;
 
 const Heading = ({text}) => {

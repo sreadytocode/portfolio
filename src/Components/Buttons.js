@@ -13,6 +13,7 @@ const ButtonContainer = styled.button `
     font-weight: bold;
     font-family: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif";
     box-shadow: 2px 2px 2px 2px turquoise;
+    color: darkblue;
 `
 
 const Buttons = ({text, clickHandler, value, isDisabled=false}) => {

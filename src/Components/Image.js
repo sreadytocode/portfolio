@@ -5,6 +5,8 @@ const ImageContainer = styled.div `
     float: left;
     border-radius: 50%;
     margin: 50px;
+    border: 5px dotted darkmagenta;
+    box-shadow: 3px 2px 2px 2px lightyellow;
 `
 const Img = styled.img`
     border-radius: 50%;
