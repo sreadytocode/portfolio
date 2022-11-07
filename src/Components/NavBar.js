@@ -6,7 +6,7 @@ import Buttons from "../Components/Buttons.js"
 const NavBar = () => {
     return ( 
         <>
-            <Link to="/"><Buttons text="Home"/></Link>
+            <Link to="/portfolio"><Buttons text="Home"/></Link>
             <Link to="/personalprofile"><Buttons text="Personal Profile"/></Link>
             <Link to="/codeclan"><Buttons text="CodeClan"/></Link>
             <Link to="/projects"><Buttons text="Projects"/></Link>

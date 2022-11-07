@@ -23,7 +23,7 @@ const PortfolioContainer = () => {
                     <br />
                     <br />
                 <Routes>
-                    <Route exact path="/" element={<Home/>}/> 
+                    <Route exact path="/portfolio" element={<Home/>}/> 
                     <Route path="/personalprofile" element={<PersonalProfile/>}/>
                     <Route path="/codeclan" element={<CodeClan/>}/>
                     <Route path="/projects" element={<Projects/>}/>
