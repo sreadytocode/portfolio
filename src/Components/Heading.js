@@ -1,6 +1,6 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
-import Background from "../Img/cloud.jpeg"
+import Background from "../Img/mirrorcloud.webp"
 
 const play = keyframes`
   
@@ -18,7 +18,7 @@ const Title = styled.h1`
     background: url(${Background}); 
     color: darkblue;
     filter: contrast(1.1);
-    animation: ${play} 50s linear infinite;
+    animation: ${play} 25s linear infinite;
     background-position: 0px 0px;
     box-shadow: 0 0 8px 8px lightblue inset;
     transform: scale(1.1);
